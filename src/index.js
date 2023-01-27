@@ -21,7 +21,11 @@ const News = (props) => {
 const App = () => {
     return (
         <div>
-            <News name='BBC News' extra='2000' text='Maftuna Boborakhimova' header='BigJob'/>
+            <News
+                name='BBC News'
+                extra='2000'
+                text='Maftuna Boborakhimova'
+                header='BigJob'/>
         </div>
     )}
 
